@@ -16,5 +16,6 @@ public class BitMask {
         }
 
         System.out.println(Integer.toBinaryString(num));
+        sc.close();
     }
 }
