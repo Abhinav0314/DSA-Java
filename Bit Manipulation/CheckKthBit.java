@@ -1,10 +1,11 @@
 import java.util.Scanner;
 
-public class BitMask {
+public class CheckKthBit {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-
-        int num = sc.nextInt(2);
+        System.out.println("Enter number:");
+        int num = sc.nextInt();
+        System.out.println("Enter bit position:");
         int pos = sc.nextInt();
 
         int bitmask = 1 << pos;
